@@ -67,8 +67,8 @@
         var position = 0;
         var labels = [".","..","..."];
         let change = function(){
-            if(position >= 3) positon=0;
-            document.getElementById("loading").innerText = "Iniciamos " + labels[position];
+            if(position > 2) positon=0;
+            document.getElementById("loading").innerText = "Iniciamos" + labels[position];
             position++;
 
         }
